@@ -1,40 +1,10 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #3b452d;
-    height: 100px;
-    padding: 20px;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 40px;
-}
-
-header .logo a {
-    background-image: url(LiftimeLogo.png);
-    background-size: 300px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 80px;
-    position: relative;
-    text-indent: -999999999px;
-    width: 300px;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
+ul {
     list-style-type: none;
-  }
-  
-  nav li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
     display: inline-block;
-    margin-right: 20px;
-  }
+    margin: 20px;
+}
