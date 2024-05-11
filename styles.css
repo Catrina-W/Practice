@@ -122,25 +122,46 @@ header .logo a {
     background-image: url("Hero.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 800px;
+    height: 690px;
     margin: 2px;
 }
 
 
 /* WELCOME SECTION */
 
+.welcome_top_border {
+    height: 5px;
+    background-color: #f5f5df;
+}
+
 .welcome {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: sticky;
+    top: 0;
+    height: 600px;
 }
 
 .welcomeimage {
-    margin: 5% 0% 0% 20%;
+    margin: 170px 0px 0px 300px;
 }
 
 .welcometext {
     text-align: center;
-    margin: -10% 20% 0% 5%;
+    margin: -100px 350px 0px 50px;
+    padding: 30px;
+    line-height: 1.75;
+}
+
+.welcome .welcometext h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.welcometext p span {
+    color: #527D48;
 }
