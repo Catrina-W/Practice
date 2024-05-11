@@ -126,7 +126,6 @@ header .logo a {
     margin: 2px;
 }
 
-
 /* WELCOME SECTION */
 
 .welcome_top_border {
@@ -139,8 +138,6 @@ header .logo a {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: sticky;
-    top: 0;
     height: 600px;
 }
 
@@ -164,4 +161,33 @@ header .logo a {
 
 .welcometext p span {
     color: #527D48;
+}
+
+.learn_more {
+    background-color: #3b452d;
+    border-radius: 35px;
+    border: 2.5px;
+    color: white;
+    display: inline-block;
+    font-weight: 800;
+    padding: 10px 25px;
+}
+
+.learn_more:hover {
+    cursor: pointer;
+}
+
+/* THREE IMAGES */
+
+.three_images {
+    justify-content: center;
+    display: flex;
+    height: 730px;
+    width: 100%;
+    margin: 2px;
+    gap: 10px;
+}
+
+.three_images img {
+    border-radius: 5%;
 }
