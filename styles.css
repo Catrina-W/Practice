@@ -1,7 +1,6 @@
 body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 1000;
     margin: 0;
     padding: 0;
 }
@@ -9,8 +8,9 @@ body {
 /* NAVIGATION BAR */
 
 header {
+    font-weight: 800;
     padding: 20px;
-    height: 100px;
+    height: 70px;
     background-color: #3b452d;
     text-align: center;
 }
@@ -33,34 +33,44 @@ li {
     margin: 5px;
 }
 
+
 /* NAVIGATION BAR BUTTONS */
 
 header .top a {
     border-radius: 35px;
-    border: 2px solid white;
+    border: 2.5px solid white;
     padding: 10px 50px;
 }
 
 header .top a:hover {
     background-color: #527D48;
     border-radius: 35px;
-    border: 2px solid #527D48;
+    border: 2.5px solid #527D48;
     transition: 0.5s;
+}
+
+.top.left {
+    margin-right: 75px;
+}
+
+.top.right {
+    margin-left: 75px;
 }
 
 /* NAVIGATION BAR CENTER LOGO IMAGE */
 
 header .logo a {
-    background-color: blue;
+    background-color: #527D48;
     background-image: url("LiftimeLogo.png");
     background-repeat: no-repeat;
-    background-size: 320px;
+    background-size: 250px;
     display: inline-block;
-    height: 200px;
+    height: 240px;
     position: relative;
     text-indent: -99999999px;
     top: -30px;
-    width: 220px;
+    width: 250px;
+    cursor: pointer;
 }
 
 /* DROP DOWN MENU */
@@ -68,16 +78,11 @@ header .logo a {
     text-align: center;
 }
 
-.dropdown__list {
-
-}
-
 .dropdown__listitem {
-    text-transform: uppercase;
     color: #527D48;
     cursor: pointer;
-    margin: 50px;
-    background-color: red;
+    font-weight: 700;
+    margin: 30px;
     font-size: 20px;
 }
 
@@ -102,6 +107,13 @@ header .logo a {
     visibility: hidden;
 }
 
+/* CENTER DROP DOWN SPACING*/
+
+.center_dropdown {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
 
 /* HERO IMAGE */
 
@@ -118,17 +130,17 @@ header .logo a {
 /* WELCOME SECTION */
 
 .welcome {
-    background-color: blue;
-    margin-top: -50px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.p {
-    background-color: green;
 }
 
 .welcomeimage {
-    float: left;
-    background-color: red;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin: 5% 0% 0% 20%;
+}
+
+.welcometext {
+    text-align: center;
+    margin: -10% 20% 0% 5%;
 }
